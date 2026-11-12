@@ -1,5 +1,6 @@
 # Good: Explains why
 # Using 1.0625 because sales tax in CA is 6.25%
+subtotal = 100.00
 total = subtotal * 1.0625
 
 # Bad: States the obvious
