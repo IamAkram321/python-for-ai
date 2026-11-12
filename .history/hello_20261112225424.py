@@ -1,0 +1,7 @@
+import requests
+
+respones = requests.get("https://api.github.com")
+print(respones.status_code)
+
+# 50:57
+#This is a comment in Python

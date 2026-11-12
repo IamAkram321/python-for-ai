@@ -1,0 +1,18 @@
+import requests
+
+respones = requests.get("https://api.github.com")
+print(respones.status_code)
+
+
+#This is a comment in Python
+#varibale is a lebelled box where we can store data.
+
+name = "John"
+age = 30
+
+#Varibale naming conventions:
+
+user_name = "Alice"  # Use lowercase letters and underscores for variable names
+userAge = 25        # Camel case is also acceptable, but less common in Python
+
+grade2=
