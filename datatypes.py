@@ -28,3 +28,14 @@ q = [1, "two", 3.0]  # list with mixed types
 r = {1, "two", 3.0}  # set with mixed types
 s = {"one": 1, "two": 2.0, "three": "3"}  # dict with mixed types
 
+
+#Difference between set and frozen set
+
+"""
+In Python, both set and frozenset are built-in data structures used to store unordered collections of unique, hashable elements. The primary difference between them is mutability: a set can be modified after creation, while a frozenset is immutable. This means that you can add or remove elements from a set, but you cannot do so with a frozenset.
+
+Syntax:
+a = set([1, 2, 3]) or {1,2,3}  # Creating a set
+b = frozenset([1, 2, 3])  # Creating a frozenset
+
+"""
