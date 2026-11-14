@@ -23,3 +23,7 @@ print(a is not b)  # Identity operator
 c = 4>=5
 print(c)
 
+age = 15
+has_license = True
+can_drive = age >= 18 and has_license
+print("Can drive:", can_drive) #True
