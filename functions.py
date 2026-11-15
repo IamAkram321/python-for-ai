@@ -169,6 +169,39 @@ print(calculate_sum([10, 20, 30, 40]))
 
 Output: 100
 
+Program 5: Find the min and max in list.
+
+def get_min_max(numbers):
+    return min(numbers), max(numbers)
+
+result = get_min_max([10,20,30])
+print(result)
+
+Program 6: Reverse a string
+
+def reverse(name):
+    return name[::-1]
+print(reverse("akram"))
+
+        (or)
+
+def reverse(name):
+    res = reversed(name)
+    return "".join(res)
+    
+print(reverse("akram"))
+
+        (or)
+
+def reverse(name):
+    res = ""
+    for x in name:
+        res = x + res
+    return res
+
+result = reverse("akram")
+print(result)
+
 
 
 Practice Questions
