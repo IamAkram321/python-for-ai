@@ -48,6 +48,10 @@ area   = pi * radius * radius
 print(area)
 print(sqrt(radius))
 
+#Import with alias
+
+#Import everything (avoid this!)
+from math import * 
 
 
 
